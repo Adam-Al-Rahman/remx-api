@@ -1,9 +1,9 @@
 
-name: Continious Deployment
+name: Continuous Deployment
 
 on:
   workflow_run:
-    workflows: ["Continious Integration"]
+    workflows: ["Continuous Integration"]
     types:
       - completed
 
